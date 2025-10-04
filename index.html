@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <!-- Site Title -->
+        <title>Unit Converter</title>
+        
+        <!-- CSS Style Sheet -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" defer></script>
+        
+        <!-- GOOGLE FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- main container -->
+        <div class="main">
+            <div class="container">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <div class="container__input">
+                    <input type="text"  id="input-el" class="input-field">
+                    <button class="convert-btn" id="convert-btn-el">CONVERT</button>
+                </div>
+                
+            </div>
+            <div class="main__conversion-table">
+                <div class="conversion-row">
+                    <h4>Length (Meter/Feet)</h4>
+                    <div class="conversion__p">
+                        <p id="length-el">
+                            0 m = 0 ft <br>
+                            0 ft = 0 m
+                        </p>
+                    </div>
+                </div>
+                <span class="conversion__table-breaker1"></span>
+                <div class="conversion-row">
+                    <h4>Volume (Litres/Gallons)</h4>
+                    <div class="conversion__p">
+                        <p id="volume-el">
+                            0 L = 0 Gal <br>
+                            0 Gal = 0 L
+                        </p>
+                    </div>
+                </div>
+                <span class="conversion__table-breaker2"></span>
+                <div class="conversion-row">
+                    <h4>Mass (Kilograms/Pounds)</h4>
+                    <div class="conversion__p">
+                        <p id="mass-el">
+                            0 kg = 0 lbs <br>
+                            0 lbs = 0 kg
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

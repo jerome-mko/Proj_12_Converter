@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    overflow: hidden;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8fb;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    border: 1px dotted purple transparent;
+    background: linear-gradient(#cf7ad970, #cda3ff90, #bad7f290);
+    padding: 2rem;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    border: 1px dotted red transparent;
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+}
+
+.container__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    position: relative;
+    top: 7rem;
+    font-size: 3rem;
+}
+
+.input-field {
+    padding: 1rem 2rem;
+    position: relative;
+    top: 7rem;
+    background-color: #56565a10;
+    border-radius: 1rem;
+    border: none;
+    border-bottom: 1px solid #f8f8fb;
+    font-size: 5rem;
+    outline: none;
+    text-align: center;
+    -webkit-text-fill-color: #f8f8fb;
+    max-width: 180px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 1px 5px#342c3f10;
+}
+
+.convert-btn {
+    background-color: #342c3f;
+    color: #f8f8fb;
+    padding: 1.5em 3em;
+    width: 250px;
+    border: none;
+    border-radius: 1.6rem;
+    position: relative;
+    top: 7.5rem;
+    margin: 1rem;
+}
+.convert-btn:hover {
+    background-color: #342c3fb8;
+}
+
+.main__conversion-table {
+    max-width: 900px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.157);
+    min-height: 300px;
+    height: 100%;
+    background-color: #f8f8fb;
+    border-radius: 1.2rem;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    position: relative;
+    top: 8rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    caret-color: #f8f8fb;
+}
+
+.conversion-row {
+    border: 1px dotted red transparent;
+    max-width: 200px;
+    width: 100%;
+    min-height: 280px;
+    padding: 0 .5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.conversion__table-breaker1 {
+    border-right: 1px solid #cb6ce650;
+    min-height: 180px ;
+}
+
+.conversion__table-breaker2 {
+    border-left: 1px solid #cb6ce650;
+    min-height: 180px ;
+}
+
+.conversion__p {
+    padding: 3rem 0;
+    margin: 1rem auto;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset; /* match your body bg */
+    -webkit-text-fill-color: #f8f8fb; /* white text */
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  /* Customize properties like background, color, font-size, etc. */
+  -webkit-appearance: auto; /* Removes default styling */
+  margin: 0; /* Removes default margin */
+  opacity: 1; /* Ensures arrows are always visible, not just on hover/focus */
+  background-color: #f0f0f0; /* Example background color */
+  color: #333; /* Example text color for arrows */
+  max-width: 20px; /* Example width */
+  width: 100%;
+  min-height: 6rem; /* Example height */
+  border: 1px solid #cb6ce650; /* Example border */
+  border-radius: 1rem; /* Example rounded corners */
+  padding: .2rem;
+}
+
